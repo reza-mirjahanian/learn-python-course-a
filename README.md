@@ -18,4 +18,11 @@ Following PEP 8 makes Python code more consistent and easier to read/maintain. M
 
 So in summary, PEP 8 contains Python's official guidelines for style and best practices when writing code. It helps create uniformity across Python projects.
 
+---------------------------------
 
+You can send a copy of a list to a function like this:
+
+function_name(list_name[:])
+
+ [:] makes a copy of the list
+ 
